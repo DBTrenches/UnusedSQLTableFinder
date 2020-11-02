@@ -62,6 +62,6 @@ Function Get-AllUnusedTables {
     Write-Output "Exporting final results to path: [$FullOutputPath]"
     $FinalList | Export-Csv -Path $FullOutputPath -NoTypeInformation
 
-    
+    Write-Output ""
     
 }
